@@ -33,8 +33,8 @@
 
 <label for="charnumber">put a number</label>
         <input type="character" id="charnumber"/>
-        <label for="txtdisease">name a disease</label>
-        <input type="text" id="txtdisease"/>
+
+
 
 <label for="txtdiseasesymptom">name a disease symptom</label>
         <input type="text" id="txtdiseasesymptom"/>
