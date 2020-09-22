@@ -1,0 +1,204 @@
+#include <stdio.h>
+int main()
+{
+int n,a,i=0,b;
+int ch,x;
+printf("Hi!!!!!!I know,Today is very very very special day and also, due to pandemic,we can't meet but\nI have something for you, hopefully you like it\n");
+printf("First of all let's get started with the quiz.\nDekhte h kitna janti ho. It will consists of 10 questions of 1 mark each.\nPress number of the month in which you born and then press enter to start,got it\n");
+scanf("%d",&ch);
+    if(ch==8)
+{
+printf("\n\nSo, First ques is, What is my fav colour?\n1.Blue\n2.Red\n3.Purple\n4.Black\nPress the correct number and then press enter\n");
+scanf("%d",&a);
+{
+if(a==1)
+{
+    printf("\n\n\nCongo, Correct answer\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is Blue.Buddhuuuuuuu\n");
+}
+}
+printf("Now,Second ques is, For What I crave the most?\n1.Dosa\n2.Maggi\n3.Momo\n4.Idlii\nPress the correct number and then press enter\n");
+scanf("%d",&a);
+{
+if(a==3)
+{
+    printf("\n\n\nCongo, Correct answer\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is Momo :/.\n");
+}
+}
+printf("Third ques is,What was my school time fav subject?\n1.English\n2.Maths\n3.Chemistry\n4.Physics\nPress the correct number and then press enter\n");
+scanf("%d",&a);
+{
+if(a==2)
+{
+    printf("\n\n\nCongo, Correct answer\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is Maths. Itna bhi pta ni? buddhu\n");
+}
+}
+printf("Fourth ques is,When we last hung out?\n1.10 july\n2.7 july\n3.8 july\n4.6 july\nPress the correct number and then press enter\n");
+scanf("%d",&a);
+{
+if(a==2)
+{
+    printf("\n\n\nCongo, Correct answer\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is 7 july.\n");
+}
+}
+printf("Fifth ques is,Who was my school time fav teacher?\n1.Anju ma'am\n2.RaviRanjan Sir\n3.Seema ma'am\n4.Lily Ma'am\nPress the correct number and then press enter\n");
+scanf("%d",&a);
+{
+if(a==4)
+{
+    printf("\n\n\nCongo, Correct answer\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is Lily maam re lily maam\n");
+}
+}
+printf("Sixth is,What was monday prayer in our school?\n1.Tu hi ram hai tu raheem hai \n2.Hum kisi kabil nahi humko is kabil bnana\n3.Hum tere nahne pujari\n4.He Vibho anand sindhu\nPress the correct number and then press enter\n");
+scanf("%d",&a);
+{
+if(a==4)
+{
+    printf("\n\n\nCongo, Correct answer\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is He Vibha Anand Sindhu\n");
+}
+}
+printf("Seventh ques is, Which teacher conducted jokes session at last of class?\n1.Manoj Pandey Sir\n2.B K Hati sir\n3.B K Pathak Sir\n4.Haq Sir\nPress the correct number and then press enter\n");
+scanf("%d",&a);
+{
+if(a==3)
+{
+    printf("\n\n\nCongo, Correct answer\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is B K Pathak. Mera naam b rkhe the Chutkulanand.\n");
+}
+}
+printf("Eight is, How many times I have made you fall from Scooty?\n1.2 times\n2.3 times\n3.5 times\n4.1 time\nPress the correct number and then enter\n");
+scanf("%d",&a);
+{
+if(a==1)
+{
+    printf("\n\n\nCongo, Correct answer\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is option 1.do re do bar.\n");
+}
+}
+printf("Nine is, In whose class we often put our heads on one-another shoulder one by one?\n1.Sharan Sir\n2.Manoj Pandey Sir\n3.Neeraj Sir\n4.Sahubuddin Sir\nPress the correct number and then press enter\n");
+scanf("%d",&a);
+{
+if(a==2)
+{
+    printf("\n\n\nCongo, Correct answer\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is Manoj Pandey Sir, 5th class me.\n");
+}
+}
+printf("Now,the last one,tell me how much I love you?\n1.bahoot\n2.bahoot bahoot\n3.bahoot bahoot jyada\n4.bahoot bahoot bahoot jyada\nPress the correct number and then press enter\n");
+scanf("%d",&a);
+{
+if(a==4)
+{
+    printf("\n\n\nWrong, I don't love you at all. hahahaha just joking\n You are correct\nI love you bahoot bahoot bahoooot jyada :D\n");
+    i++;
+}
+else
+{
+    printf("\n\n\nWrong answer,correct is 4th one bahoot bahoot bahoot jyada buddhu.\n");
+}
+}  
+printf("\nYo! quiz is over now and you scored %d out of 10\n",i);
+if(i<5)
+{
+    printf("Ye koi marks h? Itna hi janti h bs?Bkloli");
+}
+else if(i>5 && i<8)
+{
+    printf("It's okay.Not that bad");
+}
+else if(i>7 && i<10)
+{
+    printf("Impressive,You performed good.");
+}
+else if(i==10)
+{
+    printf("Excellent Superb..All correct.Love you so much.Ummmmahh..");
+}
+}
+printf("\n\n\nOh right!Next, I have a message for you- 'Ibqqz!Cjsuiebz!up!zpv'.\n Smjh to aaya hoga ni? To decode this press the year of your birth and then enter\n");
+scanf("%d",&b);
+{
+    if(b==1999)
+{
+char str[]="Ibqqz!Cjsuiebz!up!zpv",*p;
+p=str;
+while(*p!='\0')
+--*p++;
+for(x=1;x<50;x++)
+printf("  %s\n",str);
+}
+}
+printf("I wished you like 50 times.hehehe scroll up and count if you want to.(hsne wala emoji)\nAre you happy with this?Ha gift baki h milenge to jrur,tb to treat b lenge.hehehe\n");
+printf("So, I wish on your birthday ki may god give you buddhi and strength \nand may god teach you to control your feelings jyada bkbk mt kia kr or dusre ko bolne\n dia kr. Observe krna sikh dusre ko or unko bolne de\n Smjhi?:)");
+printf("\nOr we are good friends from a loooooooonng time and our bond is becoming stronger with the passing day\nI just wanted you to know ki be happy Sakshi,be happy from inside like a child\nMake your desicions from your brain by following your heart\nand worryless, I also wish you get a nice life.");
+printf("\nand Wish you always get a path covered by flowers and ha I will be there for you:)\nYe line tere lie ldke ko bolna chahie but chor ldke hote kamine h.\n To HAPPY BIRTHDAY SAKSHI.I love you a lot:) nd I miss you too\n aao ghr curry chawal khilate h:D hahahaha\n");
+printf("\n\nOne more thing Sakshi,hope you like this, press today's date and then press enter\n");
+scanf("%d",&n);
+if(n==9)
+{
+printf("\t\t    ______  ");printf("  ______  "); printf("  ______  ");                                           
+printf("\n\t|\t|  ");printf("(\t  )  ");printf("|\t    )  ");printf("|      )  ");        printf("|      |       ");
+printf("\n\t|\t|  ");printf("|\t  |  ");printf("|\t    )  ");printf("|      )  ");        printf("|      |      ");
+printf("\n\t|-------|  ");printf("|------|  ");printf("|------)  ");printf("|------)  "); printf("(------)    ");
+printf("\n\t|\t|  ");printf("|\t  |  ");printf("|\t       ");printf("|\t");               printf("     |                ");
+printf("\n\t|\t|  ");printf("|\t  |  ");printf("|\t       ");printf("|\t");               printf("     |           \n\n  ");
+
+printf("\t\t _______  ");printf(") ");printf("_______  ");printf("   ______  "); 
+printf("\n\t\t|       )   ");  printf("|      )  ");      printf(" (      )  ");printf("|      |      ");
+printf("\n\t\t|       )   "); printf("|       )  ");      printf("|      |  ");printf("|      |      ");
+printf("\n\t\t|------|    ");printf("|       |  ");       printf("|------|  ");printf("(------)    ");
+printf("\n\t\t|       )   ");    printf("|       )  ");     printf("|      |  ");printf("    |                ");  
+printf("\n\t\t|_______)   ");  printf("|______)  ");      printf(" |      |  ");printf("    |          \n\n");   
+
+printf("\t\t\t _______   ");   printf(" ______ \t      ");    printf(" _______ \t\t ");                                printf("  _______");
+printf("\n\t\t\t(          "); printf("(      )  ");printf("|     (  ");printf("(          ");  printf("|\t|  ");      printf("   |");
+printf("\n\t\t\t(          "); printf("|      |  "); printf("|    (   ");printf("(          "); printf("|\t|  ");      printf("   |");
+printf("\n\t\t\t (-----)   "); printf("|------|  ");  printf("|---(    ");printf(" (-----)  "); printf(" |------|  ");printf("   |");
+printf("\n\t\t\t        )  "); printf("|      |  ");printf("|    (   ");printf("        )  ");  printf("|\t|  ");      printf("   |");
+printf("\n\t\t\t _______)  "); printf("|      |  "); printf("|     (  "); printf(" _______)  ");printf("|\t|  ");      printf("___|___  ");
+} 
+printf("\n\nThat's all Sakshi :) Liked it? Now, it's time to leave.Bye:D,Take care and enjoy your day.");
+return 0;
+}
+
